@@ -1,0 +1,98 @@
+{
+  "start": "2023-06-26T10:59:16.803Z",
+  "end": "2023-06-26T10:59:29.451Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "114.0.5735.134",
+    "chrome": {
+      "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
+      "userDataDir": "C:\\Users\\HARISH\\AppData\\Local\\Temp\\scoped_dir7232_1634410093"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:55895"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "a5139b11d09b724ba998c594b53312b5"
+  },
+  "host": "localhost",
+  "port": 9515,
+  "baseUrl": "http://localhost",
+  "framework": "mocha",
+  "duration": 12648,
+  "suites": [
+    {
+      "title": "Launch application",
+      "duration": 12140,
+      "start": "2023-06-26T10:59:16.816Z",
+      "end": "2023-06-26T10:59:28.956Z",
+      "tests": [
+        {
+          "title": "should launch application successfully and navigate to Trading Account page",
+          "start": "2023-06-26T10:59:16.817Z",
+          "end": "2023-06-26T10:59:19.685Z",
+          "duration": 2868,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "should launch application successfully and navigate to SIPP charges page",
+          "start": "2023-06-26T10:59:19.688Z",
+          "end": "2023-06-26T10:59:21.676Z",
+          "duration": 1988,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "should launch application successfully and navigate to Shares page",
+          "start": "2023-06-26T10:59:21.679Z",
+          "end": "2023-06-26T10:59:23.669Z",
+          "duration": 1990,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "should launch application successfully and navigate to Quick-start Funds page",
+          "start": "2023-06-26T10:59:23.672Z",
+          "end": "2023-06-26T10:59:26.128Z",
+          "duration": 2456,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "should launch application successfully and navigate to News page",
+          "start": "2023-06-26T10:59:26.130Z",
+          "end": "2023-06-26T10:59:28.954Z",
+          "duration": 2824,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///C:/Users/HARISH/Sample/WDIOInteractive/test/specs/InteractiveInvestorTC.js"
+  ],
+  "state": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0
+  }
+}
